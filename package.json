@@ -1,0 +1,25 @@
+{
+  "name": "dungeon-dimensions",
+  "version": "0.1.0",
+  "description": "A moddable text-based dungeon crawler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-c/dungeon-dimensions.git"
+  },
+  "keywords": [
+    "dungeon-crawler",
+    "dungeon-crawler-game",
+    "text-based",
+    "text-based-game"
+  ],
+  "author": "Alexandre Charoy <alexandre.charoy@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/alex-c/dungeon-dimensions/issues"
+  },
+  "homepage": "https://github.com/alex-c/dungeon-dimensions#readme"
+}
