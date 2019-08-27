@@ -8,6 +8,18 @@ function InputOutput() {
   this.inquirer = inquirer;
 }
 
+InputOutput.prototype.log = function(output) {
+  console.log(output);
+};
+
+InputOutput.prototype.warn = function(output) {
+  console.log(this.chalk.yellow(output));
+};
+
+InputOutput.prototype.error = function(output) {
+  console.log(this.chalk.red(output));
+};
+
 InputOutput.prototype.buildBox = function() {
   return new BoxBuilder();
 };
